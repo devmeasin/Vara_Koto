@@ -1,0 +1,7 @@
+{
+  "name": "Vara_Koto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
