@@ -1,0 +1,80 @@
+.menu-wrapper {
+	position: relative;
+}
+
+
+.menu-part {
+	padding-top: 25px;
+}
+
+
+.menu-button {
+	--border-radius: 0 0 0 15px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -4px;
+    right: -2px;
+}
+
+.menu-logo-wrapper {
+    margin: 65px auto 0;
+    display: table;
+    place-content: center;
+}
+
+.menu-logo {
+	width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+
+.menu-toggle {
+    
+	border: none;
+
+	ion-text {
+		font-family: 'Hind Siliguri', sans-serif;
+		font-weight: 700;
+		color: #707070;
+		font-size: 19px;
+        letter-spacing: 1px;
+	}
+
+	ion-icon {
+		color: #707070;
+		padding-right: 20px;
+		font-size: 18px;
+	}
+
+	ion-item {
+		// --background: #ffffff;
+		border-radius: 0px 8px 8px 0px;
+	}
+
+}
+
+.menu-items:hover .menu-text {
+
+	color: var(--ion-color-primary, '#E7272C');
+}
+
+.menu-items:hover .menu-icon {
+
+	color: var(--ion-color-primary, '#E7272C');
+}
+
+:root {
+	--ion-color-new: var(--ion-color-primary, '#E7272C');
+}
+
+.ion-color-new .menu-text {
+	--ion-color-base: var(--ion-color-new);
+	color: var(--ion-color-new, '#E7272C');
+}
+
+.ion-color-new .menu-icon {
+	--ion-color-base: var(--ion-color-new);
+	color: var(--ion-color-new, '#E7272C');
+}
